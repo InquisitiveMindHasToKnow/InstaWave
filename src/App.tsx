@@ -18,7 +18,7 @@ const App = () => {
           </Route>
             
 
-          {/* Private Routes (Able to szee only if signed inx) */}
+          {/* Private Routes (Able to see only if signed inx) */}
           <Route element={<RootLayout />} >
             <Route index element={<Home />} />
           </Route>
